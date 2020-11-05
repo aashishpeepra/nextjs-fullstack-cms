@@ -1,0 +1,19 @@
+.post_author{
+    margin:2rem  .5rem;
+}
+.post_author h1{
+    font-size:280%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.post_desc{
+    margin:1rem 0px;
+    line-height: 150%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    max-width: 650px;
+    margin: auto;
+    font-size: 105%;
+    color:#111111
+}

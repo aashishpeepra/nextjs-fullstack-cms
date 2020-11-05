@@ -1,0 +1,23 @@
+.postpreview {
+  width: 100%;
+  max-width: 990px;
+  display: flex;
+  align-items: center;
+  margin:20px 0px;
+}
+
+.postpreview_left {
+  width: 25%;
+  margin-right: 10px;
+
+}
+
+.postpreview_left img{
+  max-height:150px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.postpreview_right{
+    width:74%;
+}

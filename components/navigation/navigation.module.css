@@ -1,0 +1,13 @@
+.navigation{
+    margin:2rem 1rem;
+}
+.navigation nav ul{
+    list-style: none;
+}
+.navigation nav ul li{
+    margin-right: 20px;
+    display: inline;
+}
+.active{
+    color:#10FC57ff;
+}
