@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The website is hosted here https://apblogs-dldh3ppcv.vercel.app/
+
+### Initially I used, editor.js with next. But after a lot of efforts figured out editor.js have some dependencies asking for window object inside node_modules. So I commmented the editor.js part. It works in development mode. 
 
 ## Getting Started
 
