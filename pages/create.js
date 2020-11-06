@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
-import EditorJs from "react-editor-js";
-import { EDITOR_JS_TOOLS } from "../utils/constants";
+// import EditorJs from "react-editor-js";
+// import { EDITOR_JS_TOOLS } from "../utils/constants";
 import styleModals from "../styles/modal.module.css";
 import { useState, useRef } from "react";
 import useSWR from "swr";
@@ -82,12 +82,12 @@ export default function Create() {
   if (!data) return <div>loading...</div>
   return (
     <div className={styles.container}>
-      <EditorJs
+      {/* <EditorJs
         tools={EDITOR_JS_TOOLS}
-        instanceRef={(instance) => (instanceRef.current = instance)}
+        // instanceRef={(instance) => (instanceRef.current = instance)}
         data={data}
-        onChange={(data) => setEditorData(data)}
-      />
+        // onChange={(data) => setEditorData(data)}
+      /> */}
       {shouldShowPopup()}
       {open ? null : (
         <button
